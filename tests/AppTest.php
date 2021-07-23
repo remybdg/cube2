@@ -38,6 +38,8 @@ class AppTest extends KernelTestCase {
         $this->assertHasErrors($user, 0);
     }
 
+    /*
+
     public function testemptyUserFirstname() {
         $emptyString = '';
         $user = $this->getEntity()->setFirstname($emptyString);
@@ -91,4 +93,5 @@ class AppTest extends KernelTestCase {
         $user = $this->getEntity()->setRoles([$emptyString]);
         $this->assertHasErrors($user, 1);
     }
+    */
 }
